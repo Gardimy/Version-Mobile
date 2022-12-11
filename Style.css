@@ -1,10 +1,10 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
   font-family: "Poppins", sans-serif;
   background: #f7f7f9;
-  width: 375px;
+  width: 100px;
 }
 
 #dell {
@@ -63,6 +63,11 @@ body {
   justify-content: center;
   padding: 114px 24px;
   gap: 12px;
+  margin-top: 1px;
+  margin-left: 12px;
+  margin-right: 12px;
+  top: 114px;
+  left: 114px;
 }
 
 .Add_file {
@@ -111,20 +116,21 @@ body {
 }
 
 .contains_work_section {
+  display: grid;
   grid-template-columns: auto;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  background-color: #fff;
-  width: 295px;
-  height: 552px;
-  margin: 50px auto;
-  border-radius: 16px;
+  background: #FFFFFF;
+  width: 327px;
+  height: 600px;
+  margin: 76px auto;
+  border-radius: 10px;
   gap: 12px;
-  top: 10px;
-  left: 100px;
+  top: 130px;
+  left: 500px;
   padding: 16px;
   background-repeat: no-repeat;
+  box-sizing: border-box;
+  border: 1px solid #DFE1E6;
 }
 
 .info_work_cont h1 {
@@ -157,9 +163,18 @@ body {
 .programming_icon {
   display: flex;
   justify-content: flex-start;
-  gap: 15px;
+  gap: 10px;
   align-items: center;
   border-color: #344563;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 16px;
+  width: 29px;
+  height: 40px;
+  letter-spacing: 0.03em;
+  list-style-type: none;
+  padding: 0;
+  flex-grow: 0;
 }
 
 .separator {
@@ -221,15 +236,19 @@ body {
 
 .vizualization_projects {
   width: 124px;
-  height: 50px;
+  height: 48px;
   background-color: #fff;
   border: 1px solid #6070ff;
   border-radius: 10px;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
+  line-height: 260px;
   color: #396df2;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px;
 }
 
 .vizualization_projects:hover {
@@ -240,7 +259,7 @@ body {
 .myself {
   background-color: #fff;
   border-top-right-radius: 80px;
-  width: 375px;
+  width: 380px;
   height: auto;
   margin: auto;
   margin: 1px 1px;
