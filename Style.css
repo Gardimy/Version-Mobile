@@ -119,7 +119,7 @@ body {
   display: grid;
   grid-template-columns: auto;
   justify-content: center;
-  background: #ffffff;
+  background: #fff;
   width: 327px;
   height: 600px;
   margin: 76px auto;
