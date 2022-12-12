@@ -1,10 +1,10 @@
 html,
 body {
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 0px;
+  margin-left: 0px;
   font-family: "Poppins", sans-serif;
-  background: #f7f7f9;
-  width: 100px;
+  width: 327px;
+  background-color: #f7f7f9;
 }
 
 #dell {
@@ -29,7 +29,6 @@ body {
   color: #7f8cff;
   line-height: 24px;
 }
-
 .connect #button-connect {
   margin-bottom: 8px;
   color: #6070ff;
@@ -54,6 +53,8 @@ body {
   width: 360px;
   height: 718px;
   top: 104px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .headline {
@@ -66,8 +67,9 @@ body {
   margin-top: 1px;
   margin-left: 12px;
   margin-right: 12px;
-  top: 114px;
-  left: 114px;
+  top: 0px;
+  left: 0px;
+  width: 0px;
 }
 
 .Add_file {
@@ -261,7 +263,7 @@ body {
   border-top-right-radius: 80px;
   width: 380px;
   height: auto;
-  margin: auto;
+  margin-right: 10px;
   margin: 1px 1px;
   left: 375px;
 }
