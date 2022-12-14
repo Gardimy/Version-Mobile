@@ -60,7 +60,7 @@ header nav div .menu-bar {
   font-weight: 700;
   font-size: 40px;
   width: 327px;
-  height: 150px;
+  height: 165px;
   line-height: 52px;
   display: flex;
   align-items: center;
@@ -811,10 +811,8 @@ header nav div .menu-bar {
 }
 
 .contactform .contact-form .submit-btn:hover {
-  background-color: #fcc;
-  width: 200px;
-  height: 200px;
-  transform: rotate(180deg);
+  background: #2230d2;;
+  color: #fff;
 }
 
 .contactform .indicator {
