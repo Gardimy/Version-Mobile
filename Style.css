@@ -715,9 +715,14 @@ header nav div .menu-bar {
   height: 800px;
   width: 375px;
   background-color: #6070ff;
+<<<<<<< HEAD
   background-image: url(.Images/contact\ form\ shapes-mobile@2x.png);
+=======
+  background-image: url(./Images/contact\ form\ shapes-mobile@2x.png);
+>>>>>>> bfdef3bd52fc1e6211ca38bebff6b3c2c38dc8ea
   background-repeat: no-repeat;
   background-position: right;
+  background-size: contain;
   border-top-left-radius: 70px;
   display: flex;
   flex-direction: column;
